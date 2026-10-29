@@ -19,3 +19,19 @@ padding around the content
   padding-left: 80px;
   padding-right: 80px;
 }
+.done-btn {
+    background-color: rgb(7, 0, 45);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.done-btn .x-icon{
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.done-btn:hover .x-icon{
+  transform: rotate(45deg);
+}
